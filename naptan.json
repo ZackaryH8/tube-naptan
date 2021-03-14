@@ -220,10 +220,6 @@
         "commonName":"Northolt Underground Station"
     },
     {
-        "naptanID":"940GZZLUOXC",
-        "commonName":"Oxford Circus Underground Station"
-    },
-    {
         "naptanID":"940GZZLUPVL",
         "commonName":"Perivale Underground Station"
     },
@@ -308,20 +304,12 @@
         "commonName":"Blackfriars Underground Station"
     },
     {
-        "naptanID":"940GZZLUBST",
-        "commonName":"Baker Street Underground Station"
-    },
-    {
         "naptanID":"940GZZLUBWT",
         "commonName":"Bayswater Underground Station"
     },
     {
         "naptanID":"940GZZLUCST",
         "commonName":"Cannon Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUEMB",
-        "commonName":"Embankment Underground Station"
     },
     {
         "naptanID":"940GZZLUERC",
@@ -368,10 +356,6 @@
         "commonName":"Latimer Road Underground Station"
     },
     {
-        "naptanID":"940GZZLULVT",
-        "commonName":"Liverpool Street Underground Station"
-    },
-    {
         "naptanID":"940GZZLUMGT",
         "commonName":"Moorgate Underground Station"
     },
@@ -382,14 +366,6 @@
     {
         "naptanID":"940GZZLUMSH",
         "commonName":"Mansion House Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUNHG",
-        "commonName":"Notting Hill Gate Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUPAC",
-        "commonName":"Paddington Underground Station"
     },
     {
         "naptanID":"940GZZLUPAH",
@@ -456,10 +432,6 @@
         "commonName":"Becontree Underground Station"
     },
     {
-        "naptanID":"940GZZLUBKF",
-        "commonName":"Blackfriars Underground Station"
-    },
-    {
         "naptanID":"940GZZLUBKG",
         "commonName":"Barking Underground Station"
     },
@@ -470,14 +442,6 @@
     {
         "naptanID":"940GZZLUBWR",
         "commonName":"Bow Road Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBWT",
-        "commonName":"Bayswater Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUCST",
-        "commonName":"Cannon Street Underground Station"
     },
     {
         "naptanID":"940GZZLUCWP",
@@ -492,10 +456,6 @@
         "commonName":"Dagenham Heathway Underground Station"
     },
     {
-        "naptanID":"940GZZLUEBY",
-        "commonName":"Ealing Broadway Underground Station"
-    },
-    {
         "naptanID":"940GZZLUECM",
         "commonName":"Ealing Common Underground Station"
     },
@@ -508,20 +468,12 @@
         "commonName":"East Ham Underground Station"
     },
     {
-        "naptanID":"940GZZLUEMB",
-        "commonName":"Embankment Underground Station"
-    },
-    {
         "naptanID":"940GZZLUEPK",
         "commonName":"Elm Park Underground Station"
     },
     {
         "naptanID":"940GZZLUEPY",
         "commonName":"East Putney Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUERC",
-        "commonName":"Edgware Road (Circle Line) Underground Station"
     },
     {
         "naptanID":"940GZZLUFBY",
@@ -532,10 +484,6 @@
         "commonName":"Gunnersbury Underground Station"
     },
     {
-        "naptanID":"940GZZLUGTR",
-        "commonName":"Gloucester Road Underground Station"
-    },
-    {
         "naptanID":"940GZZLUHCH",
         "commonName":"Hornchurch Underground Station"
     },
@@ -544,36 +492,12 @@
         "commonName":"Hammersmith (Dist&Picc Line) Underground Station"
     },
     {
-        "naptanID":"940GZZLUHSK",
-        "commonName":"High Street Kensington Underground Station"
-    },
-    {
         "naptanID":"940GZZLUKOY",
         "commonName":"Kensington (Olympia) Underground Station"
     },
     {
         "naptanID":"940GZZLUKWG",
         "commonName":"Kew Gardens Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMED",
-        "commonName":"Mile End Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMMT",
-        "commonName":"Monument Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMSH",
-        "commonName":"Mansion House Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUNHG",
-        "commonName":"Notting Hill Gate Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUPAC",
-        "commonName":"Paddington Underground Station"
     },
     {
         "naptanID":"940GZZLUPLW",
@@ -608,28 +532,8 @@
         "commonName":"Stepney Green Underground Station"
     },
     {
-        "naptanID":"940GZZLUSJP",
-        "commonName":"St. James's Park Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUSKS",
-        "commonName":"South Kensington Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUSSQ",
-        "commonName":"Sloane Square Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUTMP",
-        "commonName":"Temple Underground Station"
-    },
-    {
         "naptanID":"940GZZLUTNG",
         "commonName":"Turnham Green Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUTWH",
-        "commonName":"Tower Hill Underground Station"
     },
     {
         "naptanID":"940GZZLUUPB",
@@ -646,10 +550,6 @@
     {
         "naptanID":"940GZZLUUPY",
         "commonName":"Upney Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUVIC",
-        "commonName":"Victoria Underground Station"
     },
     {
         "naptanID":"940GZZLUWBN",
@@ -676,136 +576,8 @@
         "commonName":"Whitechapel Underground Station"
     },
     {
-        "naptanID":"940GZZLUWSM",
-        "commonName":"Westminster Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUADE",
-        "commonName":"Aldgate East Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBBB",
-        "commonName":"Bromley-by-Bow Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBBN",
-        "commonName":"Barbican Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBKG",
-        "commonName":"Barking Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBST",
-        "commonName":"Baker Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBWR",
-        "commonName":"Bow Road Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUEHM",
-        "commonName":"East Ham Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUERC",
-        "commonName":"Edgware Road (Circle Line) Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUESQ",
-        "commonName":"Euston Square Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUFCN",
-        "commonName":"Farringdon Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUGHK",
-        "commonName":"Goldhawk Road Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUGPS",
-        "commonName":"Great Portland Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUHSC",
-        "commonName":"Hammersmith (H&C Line) Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUKSX",
-        "commonName":"King's Cross St. Pancras Underground Station"
-    },
-    {
-        "naptanID":"940GZZLULAD",
-        "commonName":"Ladbroke Grove Underground Station"
-    },
-    {
-        "naptanID":"940GZZLULRD",
-        "commonName":"Latimer Road Underground Station"
-    },
-    {
-        "naptanID":"940GZZLULVT",
-        "commonName":"Liverpool Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMED",
-        "commonName":"Mile End Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMGT",
-        "commonName":"Moorgate Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUPAH",
-        "commonName":"Paddington (H&C Line)-Underground"
-    },
-    {
-        "naptanID":"940GZZLUPLW",
-        "commonName":"Plaistow Underground Station"
-    },
-    {
-        "naptanID":"940GZZLURYO",
-        "commonName":"Royal Oak Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUSBM",
-        "commonName":"Shepherd's Bush Market Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUSGN",
-        "commonName":"Stepney Green Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUUPK",
-        "commonName":"Upton Park Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWHM",
-        "commonName":"West Ham Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWLA",
-        "commonName":"Wood Lane Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWPL",
-        "commonName":"Whitechapel Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWSP",
-        "commonName":"Westbourne Park Underground Station"
-    },
-    {
         "naptanID":"940GZZLUBMY",
         "commonName":"Bermondsey Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBND",
-        "commonName":"Bond Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBST",
-        "commonName":"Baker Street Underground Station"
     },
     {
         "naptanID":"940GZZLUCGT",
@@ -864,10 +636,6 @@
         "commonName":"St. John's Wood Underground Station"
     },
     {
-        "naptanID":"940GZZLUSTD",
-        "commonName":"Stratford Underground Station"
-    },
-    {
         "naptanID":"940GZZLUSTM",
         "commonName":"Stanmore Underground Station"
     },
@@ -880,10 +648,6 @@
         "commonName":"Southwark Underground Station"
     },
     {
-        "naptanID":"940GZZLUWHM",
-        "commonName":"West Ham Underground Station"
-    },
-    {
         "naptanID":"940GZZLUWHP",
         "commonName":"West Hampstead Underground Station"
     },
@@ -892,32 +656,12 @@
         "commonName":"Willesden Green Underground Station"
     },
     {
-        "naptanID":"940GZZLUWLO",
-        "commonName":"Waterloo Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWSM",
-        "commonName":"Westminster Underground Station"
-    },
-    {
         "naptanID":"940GZZLUWYP",
         "commonName":"Wembley Park Underground Station"
     },
     {
-        "naptanID":"940GZZLUALD",
-        "commonName":"Aldgate Underground Station"
-    },
-    {
         "naptanID":"940GZZLUAMS",
         "commonName":"Amersham Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBBN",
-        "commonName":"Barbican Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBST",
-        "commonName":"Baker Street Underground Station"
     },
     {
         "naptanID":"940GZZLUCAL",
@@ -940,22 +684,6 @@
         "commonName":"Eastcote Underground Station"
     },
     {
-        "naptanID":"940GZZLUESQ",
-        "commonName":"Euston Square Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUFCN",
-        "commonName":"Farringdon Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUFYR",
-        "commonName":"Finchley Road Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUGPS",
-        "commonName":"Great Portland Street Underground Station"
-    },
-    {
         "naptanID":"940GZZLUHGD",
         "commonName":"Hillingdon Underground Station"
     },
@@ -966,18 +694,6 @@
     {
         "naptanID":"940GZZLUICK",
         "commonName":"Ickenham Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUKSX",
-        "commonName":"King's Cross St. Pancras Underground Station"
-    },
-    {
-        "naptanID":"940GZZLULVT",
-        "commonName":"Liverpool Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMGT",
-        "commonName":"Moorgate Underground Station"
     },
     {
         "naptanID":"940GZZLUMPK",
@@ -1036,14 +752,6 @@
         "commonName":"West Harrow Underground Station"
     },
     {
-        "naptanID":"940GZZLUWIG",
-        "commonName":"Willesden Green Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWYP",
-        "commonName":"Wembley Park Underground Station"
-    },
-    {
         "naptanID":"940GZZLUACY",
         "commonName":"Archway Underground Station"
     },
@@ -1054,10 +762,6 @@
     {
         "naptanID":"940GZZLUBLM",
         "commonName":"Balham Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBNK",
-        "commonName":"Bank Underground Station"
     },
     {
         "naptanID":"940GZZLUBOR",
@@ -1078,10 +782,6 @@
     {
         "naptanID":"940GZZLUCFM",
         "commonName":"Chalk Farm Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUCHX",
-        "commonName":"Charing Cross Underground Station"
     },
     {
         "naptanID":"940GZZLUCND",
@@ -1108,20 +808,12 @@
         "commonName":"Camden Town Underground Station"
     },
     {
-        "naptanID":"940GZZLUEAC",
-        "commonName":"Elephant & Castle Underground Station"
-    },
-    {
         "naptanID":"940GZZLUEFY",
         "commonName":"East Finchley Underground Station"
     },
     {
         "naptanID":"940GZZLUEGW",
         "commonName":"Edgware Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUEMB",
-        "commonName":"Embankment Underground Station"
     },
     {
         "naptanID":"940GZZLUEUS",
@@ -1164,24 +856,12 @@
         "commonName":"Kentish Town Underground Station"
     },
     {
-        "naptanID":"940GZZLUKSX",
-        "commonName":"King's Cross St. Pancras Underground Station"
-    },
-    {
-        "naptanID":"940GZZLULNB",
-        "commonName":"London Bridge Underground Station"
-    },
-    {
         "naptanID":"940GZZLULSQ",
         "commonName":"Leicester Square Underground Station"
     },
     {
         "naptanID":"940GZZLUMDN",
         "commonName":"Morden Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUMGT",
-        "commonName":"Moorgate Underground Station"
     },
     {
         "naptanID":"940GZZLUMHL",
@@ -1220,10 +900,6 @@
         "commonName":"Tooting Broadway Underground Station"
     },
     {
-        "naptanID":"940GZZLUTCR",
-        "commonName":"Tottenham Court Road Underground Station"
-    },
-    {
         "naptanID":"940GZZLUTFP",
         "commonName":"Tufnell Park Underground Station"
     },
@@ -1232,20 +908,12 @@
         "commonName":"West Finchley Underground Station"
     },
     {
-        "naptanID":"940GZZLUWLO",
-        "commonName":"Waterloo Underground Station"
-    },
-    {
         "naptanID":"940GZZLUWOP",
         "commonName":"Woodside Park Underground Station"
     },
     {
         "naptanID":"940GZZLUWRR",
         "commonName":"Warren Street Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUACT",
-        "commonName":"Acton Town Underground Station"
     },
     {
         "naptanID":"940GZZLUALP",
@@ -1268,10 +936,6 @@
         "commonName":"Boston Manor Underground Station"
     },
     {
-        "naptanID":"940GZZLUBSC",
-        "commonName":"Barons Court Underground Station"
-    },
-    {
         "naptanID":"940GZZLUCAR",
         "commonName":"Caledonian Road Underground Station"
     },
@@ -1284,36 +948,8 @@
         "commonName":"Cockfosters Underground Station"
     },
     {
-        "naptanID":"940GZZLUEAE",
-        "commonName":"Eastcote Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUECM",
-        "commonName":"Ealing Common Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUECT",
-        "commonName":"Earl's Court Underground Station"
-    },
-    {
         "naptanID":"940GZZLUFPK",
         "commonName":"Finsbury Park Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUGPK",
-        "commonName":"Green Park Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUGTR",
-        "commonName":"Gloucester Road Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUHBN",
-        "commonName":"Holborn Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUHGD",
-        "commonName":"Hillingdon Underground Station"
     },
     {
         "naptanID":"940GZZLUHNX",
@@ -1332,10 +968,6 @@
         "commonName":"Heathrow Terminals 2 & 3 Underground Station"
     },
     {
-        "naptanID":"940GZZLUHSD",
-        "commonName":"Hammersmith (Dist&Picc Line) Underground Station"
-    },
-    {
         "naptanID":"940GZZLUHWC",
         "commonName":"Hounslow Central Underground Station"
     },
@@ -1352,20 +984,8 @@
         "commonName":"Holloway Road Underground Station"
     },
     {
-        "naptanID":"940GZZLUICK",
-        "commonName":"Ickenham Underground Station"
-    },
-    {
         "naptanID":"940GZZLUKNB",
         "commonName":"Knightsbridge Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUKSX",
-        "commonName":"King's Cross St. Pancras Underground Station"
-    },
-    {
-        "naptanID":"940GZZLULSQ",
-        "commonName":"Leicester Square Underground Station"
     },
     {
         "naptanID":"940GZZLUMRH",
@@ -1388,28 +1008,12 @@
         "commonName":"Osterley Underground Station"
     },
     {
-        "naptanID":"940GZZLUPCC",
-        "commonName":"Piccadilly Circus Underground Station"
-    },
-    {
         "naptanID":"940GZZLUPKR",
         "commonName":"Park Royal Underground Station"
     },
     {
-        "naptanID":"940GZZLURSM",
-        "commonName":"Ruislip Manor Underground Station"
-    },
-    {
-        "naptanID":"940GZZLURSP",
-        "commonName":"Ruislip Underground Station"
-    },
-    {
         "naptanID":"940GZZLURSQ",
         "commonName":"Russell Square Underground Station"
-    },
-    {
-        "naptanID":"940GZZLURYL",
-        "commonName":"Rayners Lane Underground Station"
     },
     {
         "naptanID":"940GZZLUSEA",
@@ -1424,10 +1028,6 @@
         "commonName":"South Harrow Underground Station"
     },
     {
-        "naptanID":"940GZZLUSKS",
-        "commonName":"South Kensington Underground Station"
-    },
-    {
         "naptanID":"940GZZLUSUH",
         "commonName":"Sudbury Hill Underground Station"
     },
@@ -1436,16 +1036,8 @@
         "commonName":"Sudbury Town Underground Station"
     },
     {
-        "naptanID":"940GZZLUTNG",
-        "commonName":"Turnham Green Underground Station"
-    },
-    {
         "naptanID":"940GZZLUTPN",
         "commonName":"Turnpike Lane Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUUXB",
-        "commonName":"Uxbridge Underground Station"
     },
     {
         "naptanID":"940GZZLUWOG",
@@ -1460,36 +1052,12 @@
         "commonName":"Brixton Underground Station"
     },
     {
-        "naptanID":"940GZZLUEUS",
-        "commonName":"Euston Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUFPK",
-        "commonName":"Finsbury Park Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUGPK",
-        "commonName":"Green Park Underground Station"
-    },
-    {
         "naptanID":"940GZZLUHAI",
         "commonName":"Highbury & Islington Underground Station"
     },
     {
-        "naptanID":"940GZZLUKSX",
-        "commonName":"King's Cross St. Pancras Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUOXC",
-        "commonName":"Oxford Circus Underground Station"
-    },
-    {
         "naptanID":"940GZZLUPCO",
         "commonName":"Pimlico Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUSKW",
-        "commonName":"Stockwell Underground Station"
     },
     {
         "naptanID":"940GZZLUSVS",
@@ -1500,27 +1068,11 @@
         "commonName":"Tottenham Hale Underground Station"
     },
     {
-        "naptanID":"940GZZLUVIC",
-        "commonName":"Victoria Underground Station"
-    },
-    {
         "naptanID":"940GZZLUVXL",
         "commonName":"Vauxhall Underground Station"
     },
     {
-        "naptanID":"940GZZLUWRR",
-        "commonName":"Warren Street Underground Station"
-    },
-    {
         "naptanID":"940GZZLUWWL",
         "commonName":"Walthamstow Central Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUBNK",
-        "commonName":"Bank Underground Station"
-    },
-    {
-        "naptanID":"940GZZLUWLO",
-        "commonName":"Waterloo Underground Station"
     }
 ]
