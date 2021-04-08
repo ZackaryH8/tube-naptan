@@ -1,6 +1,6 @@
 # tube-naptan
 
-I created this repo after having difficulty finding this data myself. I provide 2 formats, JSON and CSV.Both of which contain naptanID and commanName. The data shouldn't need to be updated often, but should it need to be then there is a ascript included which will do this automatically.
+I created this repo after having difficulty finding this data myself. I provide 2 formats, JSON and CSV. Both of which contain naptanID and commanName. The data shouldn't need to be updated often, but should it need to be then there is a ascript included which will do this automatically.
 
 ## Formats
 
