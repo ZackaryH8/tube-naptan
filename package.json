@@ -1,0 +1,17 @@
+{
+  "name": "tube-naptan",
+  "version": "1.0.0",
+  "main": "scripts/update.js",
+  "repository": "https://github.com/ZackaryH8/tube-naptan",
+  "author": "Zack Eckersley Pallett <zackary12389@yahoo.co.uk>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "json-2-csv": "^3.10.3"
+  },
+  "scripts": {
+    "update": "node scripts/update.js"
+  },
+  "type": "module"
+}
