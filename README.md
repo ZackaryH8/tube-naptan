@@ -10,3 +10,8 @@ I created this repo after having difficulty finding this data myself. I provide 
 ## Updating the Data
 
 `yarn run update` - Updates the JSON and CSV
+
+## Contributing
+
+- Contributions for Javascript will be considered
+- Pull Requests for /data **will** be closed
