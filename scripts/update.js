@@ -16,7 +16,7 @@ const spinner = ora('Requesting new data').start();
         const tubeStopPoints = await axios.get(`https://api.tfl.gov.uk/line/${line.id}/stoppoints`);
 
         for (const tubeStopPoint of tubeStopPoints.data) {
-            if (tubeStopPoint.modes.includes(mode)) {
+            if (tubeStopPoint.modes.includes("tube")) {
                 list.push({
                     naptanID: tubeStopPoint.id,
                     commonName: tubeStopPoint.commonName,
@@ -46,3 +46,5 @@ const spinner = ora('Requesting new data').start();
         spinner.succeed("CSV data was updated succesfully!");
     });
 })();
+
+spinner.clear()
