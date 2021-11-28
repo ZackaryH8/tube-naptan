@@ -16,7 +16,7 @@ const spinner = ora('Requesting new data').start();
         const tubeStopPoints = await axios.get(`https://api.tfl.gov.uk/line/${line.id}/stoppoints`);
 
         for (const tubeStopPoint of tubeStopPoints.data) {
-            if (tubeStopPoint.modes.includes("tube")) {
+            if (tubeStopPoint.modes.includes('tube')) {
                 list.push({
                     naptanID: tubeStopPoint.id,
                     commonName: tubeStopPoint.commonName,
@@ -31,19 +31,19 @@ const spinner = ora('Requesting new data').start();
     JSONOutput = JSON.stringify(list);
     CSVOutput = await converter.json2csvAsync(list);
 
-    fs.writeFile(`./data/naptan.json`, JSONOutput, 'utf8', (err) => {
+    fs.writeFile('./data/naptan.json', JSONOutput, 'utf8', (err) => {
         if (err) {
-            spinner.fail("JSON data failed to update!");
+            spinner.fail('JSON data failed to update!');
         }
-        spinner.succeed("JSON data was updated succesfully!");
+        spinner.succeed('JSON data was updated succesfully!');
 
     });
 
-    fs.writeFile(`./data/naptan.csv`, CSVOutput, 'utf8', (err) => {
+    fs.writeFile('./data/naptan.csv', CSVOutput, 'utf8', (err) => {
         if (err) {
-            spinner.fail("JSON data failed to update!");
+            spinner.fail('CSV data failed to update!');
         }
-        spinner.succeed("CSV data was updated succesfully!");
+        spinner.succeed('CSV data was updated succesfully!');
     });
 })();
 
