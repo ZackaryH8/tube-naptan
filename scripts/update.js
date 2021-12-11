@@ -28,6 +28,7 @@ const spinner = ora('Requesting new data').start();
         }
     }
 
+    // Remove duplicate entries
     stopPointList = stopPointList.filter((object, position, array) => {
         return array.map((mapObject) => mapObject.naptanID).indexOf(object.naptanID) == position;
     });
