@@ -3,48 +3,52 @@ import axios from 'axios';
 import converter from 'json-2-csv';
 import ora from 'ora';
 
-let list = [];
-let JSONOutput;
-let CSVOutput;
+let stopPointList = [];
 
 const spinner = ora('Requesting new data').start();
 
 (async () => {
+    // Get all line statuses
     const lines = await axios.get(`https://api.tfl.gov.uk/line/mode/tube/status`);
 
+    //Loop through each line
     for (const line of lines.data) {
+        // Request the stop points for each line
         const tubeStopPoints = await axios.get(`https://api.tfl.gov.uk/line/${line.id}/stoppoints`);
 
+        // Loop through each stop point and check if it's mode is tube
         for (const tubeStopPoint of tubeStopPoints.data) {
             if (tubeStopPoint.modes.includes('tube')) {
-                list.push({
+                // Add the stop point to the stop points list
+                stopPointList.push({
                     naptanID: tubeStopPoint.id,
                     commonName: tubeStopPoint.commonName,
                 });
             }
         }
     }
-    list = list.filter((obj, pos, arr) => {
-        return arr.map((mapObj) => mapObj.naptanID).indexOf(obj.naptanID) == pos;
+
+    stopPointList = stopPointList.filter((object, position, array) => {
+        return array.map((mapObject) => mapObject.naptanID).indexOf(object.naptanID) == position;
     });
 
-    JSONOutput = JSON.stringify(list);
-    CSVOutput = await converter.json2csvAsync(list);
-
-    fs.writeFile('./data/naptan.json', JSONOutput, 'utf8', (err) => {
+    // Write json to file
+    fs.writeFile('./data/naptan.json', JSON.stringify(stopPointList), 'utf8', (err) => {
         if (err) {
-            spinner.fail('JSON data failed to update!');
+            spinner.fail('JSON -> Data failed to update!');
+        } else {
+            spinner.succeed('JSON -> Data was updated succesfully!');
         }
-        spinner.succeed('JSON data was updated succesfully!');
-
     });
 
-    fs.writeFile('./data/naptan.csv', CSVOutput, 'utf8', (err) => {
+    // Write CSV to file
+    fs.writeFile('./data/naptan.csv', await converter.json2csvAsync(stopPointList), 'utf8', (err) => {
         if (err) {
-            spinner.fail('CSV data failed to update!');
+            spinner.fail('CSV  -> Data failed to update!');
+        } else {
+            spinner.succeed('CSV  -> Data was updated succesfully!');
         }
-        spinner.succeed('CSV data was updated succesfully!');
     });
 })();
 
-spinner.clear()
+spinner.clear();
