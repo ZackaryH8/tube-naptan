@@ -9,16 +9,22 @@ const spinner = ora('Requesting new data').start();
 
 (async () => {
     // Get all line statuses
-    const lines = await axios.get(`https://api.tfl.gov.uk/line/mode/tube/status`);
-
+    const tubeLines = await axios.get(`https://api.tfl.gov.uk/line/mode/tube/status`);
+    const lines = [{
+        id: 'dlr'
+    }, {
+        id: 'elizabeth'
+    },
+    ...tubeLines.data]
+    const acceptableModes = ['tube', 'dlr', 'elizabeth-line'];
     //Loop through each line
-    for (const line of lines.data) {
+    for (const line of lines) {
         // Request the stop points for each line
         const tubeStopPoints = await axios.get(`https://api.tfl.gov.uk/line/${line.id}/stoppoints`);
 
         // Loop through each stop point and check if it's mode is tube
         for (const tubeStopPoint of tubeStopPoints.data) {
-            if (tubeStopPoint.modes.includes('tube')) {
+            if (acceptableModes.some(acceptableMode => tubeStopPoint.modes.includes(acceptableMode))) {
                 // Add the stop point to the stop points list
                 stopPointList.push({
                     naptanID: tubeStopPoint.id,
@@ -26,7 +32,7 @@ const spinner = ora('Requesting new data').start();
                 });
             }
         }
-    }
+    };
 
     // Remove duplicate entries
     stopPointList = stopPointList.filter((object, position, array) => {
